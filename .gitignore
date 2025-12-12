@@ -1,0 +1,29 @@
+# ROS
+build/
+devel/
+logs/
+
+# Python
+__pycache__/
+*.pyc
+
+# Linux
+*.swp
+
+# Secrets
+serviceAccountKey.json
+
+# ===== Exclude experimental / test scripts =====
+ned_moveit_control/scripts/draw_dot.py
+ned_moveit_control/scripts/draw_line.py
+ned_moveit_control/scripts/image_publisher.py
+ned_moveit_control/scripts/test_draw_dot.py
+ned_moveit_control/scripts/test_joint_space.py
+ned_moveit_control/scripts/test_opencv.py
+
+# ===== Sensitive files =====
+ned_moveit_control/scripts/serviceAccountKey.json
+ned_moveit_control/scripts/last_image_path.txt
+
+# ===== Generated files =====
+*.png
