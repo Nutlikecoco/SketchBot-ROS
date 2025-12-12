@@ -1,0 +1,16 @@
+<launch>
+    <!-- Spawn joint_state_controller -->
+    <node name="joint_state_controller_spawner"
+          pkg="controller_manager"
+          type="spawner"
+          args="joint_state_controller"
+          output="screen" />
+
+    <!-- Spawn trajectory controller -->
+    <node name="trajectory_controller_spawner"
+          pkg="controller_manager"
+          type="spawner"
+          args="niryo_robot_follow_joint_trajectory_controller"
+          output="screen" />
+</launch>
+

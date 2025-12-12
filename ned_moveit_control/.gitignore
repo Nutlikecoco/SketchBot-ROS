@@ -1,0 +1,19 @@
+# ROS / Catkin build
+build/
+devel/
+install/
+logs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Backup / Temp
+*.swp
+*.bak
+*~
