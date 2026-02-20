@@ -46,7 +46,8 @@ sudo apt install python3-opencv
 ```
 
 # Running the Robot
--roslaunch niryo_robot_moveit_config webviz_demo.launch
--rosrun robot_state_publisher robot_state_publisher
--rosrun joint_state_publisher_gui joint_state_publisher_gui
--rosrun rviz rviz -d ~/my_robot_config.rviz
+
+- roslaunch niryo_robot_moveit_config webviz_demo.launch
+- rosrun robot_state_publisher robot_state_publisher
+- rosrun joint_state_publisher_gui joint_state_publisher_gui
+- rosrun rviz rviz -d ~/my_robot_config.rviz
